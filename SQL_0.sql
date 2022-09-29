@@ -5,7 +5,7 @@
 
 -- /  We can use My SQLtools or  usually need to provide a MySQL user name when you invoke mysql and, most likely, a password.
 -- / If the server runs on a machine other than the one where you log in, you also need to specify a host name. Contact your administrator 
---/ to find out what connection parameters you should use to connect (that is, what host, user name, and password to use).
+--/ to find out what connection parameters you should use to connect (that is, what host, user name, and password to use). 
 
 mysql -h host -u user -p
 Enter password: ********
