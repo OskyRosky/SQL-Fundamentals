@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------
--------           SQL Alter, Truncate,                  -----------
+-------           SQL Alter, Truncate                   -----------
 -----------------------------------------------------------------------
 
 --/ SQL ALTER TABLE command is used to add, delete or modify columns in an existing table. You would also use ALTER TABLE command to add and drop various constraints on an existing table.
