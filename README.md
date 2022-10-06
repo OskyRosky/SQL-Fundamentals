@@ -30,3 +30,4 @@ SQL_17: SQL Sub Queries
 SQL_18: SQL Using Sequences ,  Handling Duplicates
 SQL_19: SQL Functions 
 
+ 
