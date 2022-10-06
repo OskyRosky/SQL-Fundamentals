@@ -61,8 +61,75 @@ SQL> SELECT * FROM employee_tbl ORDER BY RAND();
 SQL> SELECT CONCAT(id, name, work_date) 
     -> FROM employee_tbl;
 
+
+SQL> SELECT CONCAT('FIRST ', 'SECOND');
+
 --SQL Numeric Functions
 
+-- ABS()
+
+SQL> SELECT ABS(2);
+
+-- ACOS()
+SQL> SELECT ACOS(1);
+
+-- ASIN()
+
+SELECT ASIN(1);
+
+-- CEIL()
+
+SELECT CEILING(3.46);
+SELECT CEIL(-6.43);
+
+-- ROUND(X);
+
+SQL>SELECT ROUND(5.693893);
+SQL>SELECT ROUND(5.693893,2);
+
+-- And so on...
 
 
--- SQL String Functions
+--/ SQL String Functions
+
+-- ASCII()
+
+SQL> SELECT ASCII('2');
+
+-- CHAR()
+
+SQL> SELECT CHAR(77,121,83,81,'76');
+
+-- CONCAT()
+
+SQL> SELECT CONCAT('My', 'S', 'QL');
+
+-- CONV()
+
+SQL> SELECT CONV('a',16,2);
+
+-- LEFT()
+
+SQL> SELECT LEFT('foobarbar', 5);
+
+-- LTRIM()
+
+SQL> SELECT LTRIM(' barbar');
+
+-- REGEXP
+
+SQL> SELECT 'ABCDEF' REGEXP 'A%C%%';
+
+-- REPLACE()
+
+SQL> SELECT REPLACE('www.mysql.com', 'w', 'Ww');
+
+-- REVERSE()
+
+SQL> SELECT REVERSE('abcd');
+
+--  UPPER()
+
+SELECT UPPER('Allah-hus-samad');
+
+-- etc...
