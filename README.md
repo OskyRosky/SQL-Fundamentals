@@ -9,6 +9,7 @@ Tutorials, cheat sheets, and generic SQL codes.
 
 Each contains:
 
+SQL_0: Connecting to and Disconnecting from the Server, SQL Commnads, SQL Constraints.
 SQL_1:
 SQL_2:
 SQL_3:
